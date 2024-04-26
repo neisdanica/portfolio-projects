@@ -1,47 +1,47 @@
 -- Alter Table to change column's data type
 
-ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN total_cases										float 
+ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN total_cases									float 
 ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN total_deaths									float 
-ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN total_cases_per_million							float
-ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN total_deaths_per_million						float 
+ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN total_cases_per_million								float
+ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN total_deaths_per_million							float 
 ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN reproduction_rate								float 
 ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN icu_patients									float 
-ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN icu_patients_per_million						float
+ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN icu_patients_per_million							float
 ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN hosp_patients									float 
-ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN hosp_patients_per_million						float
-ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN weekly_icu_admissions							float 
-ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN weekly_icu_admissions_per_million				float
-ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN weekly_hosp_admissions							float
-ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN weekly_hosp_admissions_per_million				float
+ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN hosp_patients_per_million							float
+ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN weekly_icu_admissions								float 
+ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN weekly_icu_admissions_per_million						float
+ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN weekly_hosp_admissions								float
+ALTER TABLE ProjectPortfolio..CovidDeaths$ ALTER COLUMN weekly_hosp_admissions_per_million						float
 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_tests									float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_tests										float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_tests_per_thousand						float
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_tests_per_thousand						float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_tests								float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_tests									float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_tests_per_thousand							float
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_tests_per_thousand							float 
 ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_tests_smoothed							float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_tests_smoothed_per_thousand				float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN positive_rate									float
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_tests_smoothed_per_thousand						float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN positive_rate								float
 ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN tests_per_case								float 
 ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_vaccinations							float
 ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN people_vaccinated								float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN people_fully_vaccinated						float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN people_fully_vaccinated							float 
 ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_boosters								float
 ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_vaccinations								float
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_vaccinations_smoothed						float
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_vaccinations_per_hundred				float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN people_vaccinated_per_hundred					float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN people_fully_vaccinated_per_hundred			float
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_boosters_per_hundred					float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_vaccinations_smoothed_per_million			float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_people_vaccinated_smoothed				float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_people_vaccinated_smoothed_per_hundred	float
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_vaccinations_smoothed							float
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_vaccinations_per_hundred						float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN people_vaccinated_per_hundred						float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN people_fully_vaccinated_per_hundred					float
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN total_boosters_per_hundred						float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_vaccinations_smoothed_per_million					float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_people_vaccinated_smoothed						float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN new_people_vaccinated_smoothed_per_hundred				float
 ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN extreme_poverty								float 
 ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN female_smokers								float
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN male_smokers									float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN excess_mortality_cumulative_absolute			float 
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN excess_mortality_cumulative					float
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN male_smokers								float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN excess_mortality_cumulative_absolute					float 
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN excess_mortality_cumulative						float
 ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN excess_mortality								float
-ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN excess_mortality_cumulative_per_million		float
+ALTER TABLE ProjectPortfolio..CovidVaccinations$ ALTER COLUMN excess_mortality_cumulative_per_million					float
 
 SELECT *
 FROM ProjectPortfolio..CovidDeaths$
